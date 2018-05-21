@@ -1,0 +1,13 @@
+java.io.FileNotFoundException: /gs/home/mohiul/git/ecj-mcts/src/ec/app/regression/../../gp/koza/koza-expMaxDistance120.params (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at ec.util.ParameterDatabase.<init>(ParameterDatabase.java:2869)
+	at ec.util.ParameterDatabase.<init>(ParameterDatabase.java:2899)
+	at ec.util.ParameterDatabase.<init>(ParameterDatabase.java:2920)
+	at ec.Evolve.loadParameterDatabase(Evolve.java:234)
+	at ec.Evolve.main(Evolve.java:721)
+STARTUP ERROR:
+An exception was generated upon reading the parameter file "ec/app/regression/pagie1-expSimulation120.params".
+Here it is:
+java.io.FileNotFoundException: /gs/home/mohiul/git/ecj-mcts/src/ec/app/regression/../../gp/koza/koza-expMaxDistance120.params (No such file or directory)
